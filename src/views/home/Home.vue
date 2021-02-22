@@ -160,9 +160,9 @@ export default {
   }
   .home_tab {
     position: relative;
-    z-index: 9;
+    z-index: 10;
   }
   .seat{
-    height: 14.722vw;
+    height: 14.167vw;
   }
 </style>
