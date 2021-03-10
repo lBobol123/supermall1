@@ -27,7 +27,7 @@ export default {
     position: relative;
     /* top: 0; */
     width: 100%;
-    z-index: 9;
+    z-index: 20;
     box-shadow: 0 0 0.278vw rgba(100, 100, 100, .5);
   }
   .left,

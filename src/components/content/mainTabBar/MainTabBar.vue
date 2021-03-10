@@ -10,7 +10,7 @@
       <img slot="tab-active-icon" src="@/assets/img/tabbar/category_active.svg" alt="">
       <div slot="text">分类</div>
     </tab-bar-item>
-    <tab-bar-item path="/shopcart" activeColor="#f00">
+    <tab-bar-item path="/shopcart">
       <img slot="tab-icon" src="@/assets/img/tabbar/shopcart.svg" alt="">
       <img slot="tab-active-icon" src="@/assets/img/tabbar/shopcart_active.svg" alt="">
       <div slot="text">购物车</div>
@@ -24,8 +24,8 @@
 </template>
 
 <script>
-import TabBar from '../../common/tabbar/TabBar'
-import TabBarItem from '../../common/tabbar/TabBarItem'
+import TabBar from '@/components/common/tabbar/TabBar'
+import TabBarItem from '@/components/common/tabbar/TabBarItem'
 
 export default {
   name: 'MainTabBar',

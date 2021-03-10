@@ -16,8 +16,6 @@ export default {
       default: '#ff5777'
     }
   },
-  components: {
-  },
   data () {
     return {
     }
@@ -50,6 +48,7 @@ export default {
   }
   .tab_bar_item img {
     width: 6.667vw;
+    height: 6.667vw;;
     vertical-align: middle;
     margin-bottom: 0.833vw;
   }
